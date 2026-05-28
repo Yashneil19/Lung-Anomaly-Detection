@@ -1,0 +1,23 @@
+[ 22.12.2025 - 18:10:59 ]
+    (MSG) [2] SMILExtract: openSMILE starting!
+[ 22.12.2025 - 18:10:59 ]
+    (MSG) [2] SMILExtract: config file is: E:\Research Project (Prof. Preeti Rao)\opensmile-3.0-win-x64\myconfig\pitch.conf
+[ 22.12.2025 - 18:10:59 ]
+    (MSG) [2] cComponentManager: successfully registered 103 component types.
+[ 22.12.2025 - 18:10:59 ]
+    (WRN) [2] instance 'specScale': FFT magnitude field '*Mag*' not found, defaulting to use full input vector!
+[ 22.12.2025 - 18:10:59 ]
+    (WRN) [2] instance 'specScale': The data type of the input field is not of type DATATYPE_SPECTRUM_BINS_* , spectral power/magnitude bins are required as input to this component! Please check your config!
+==> LEVEL 'wave'  +++  Buffersize(frames) = 8001  +++  nReaders = 1
+==> LEVEL 'frames'  +++  Buffersize(frames) = 3  +++  nReaders = 1
+==> LEVEL 'win'  +++  Buffersize(frames) = 3  +++  nReaders = 2
+==> LEVEL 'energy'  +++  Buffersize(frames) = 3  +++  nReaders = 1
+==> LEVEL 'fft'  +++  Buffersize(frames) = 3  +++  nReaders = 1
+==> LEVEL 'spec'  +++  Buffersize(frames) = 3  +++  nReaders = 1
+==> LEVEL 'pitch'  +++  Buffersize(frames) = 3  +++  nReaders = 1
+[ 22.12.2025 - 18:10:59 ]
+    (MSG) [2] cComponentManager: successfully finished createInstances (8 component instances were finalised, 1 data memories were finalised)
+[ 22.12.2025 - 18:10:59 ]
+    (MSG) [2] cComponentManager: starting single thread processing loop
+[ 22.12.2025 - 18:10:59 ]
+    (MSG) [2] cComponentManager: Processing finished! System ran for 1501 ticks.
