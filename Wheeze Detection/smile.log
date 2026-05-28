@@ -1,23 +1,30 @@
-[ 22.12.2025 - 18:10:59 ]
+[ 29.12.2025 - 11:55:32 ]
     (MSG) [2] SMILExtract: openSMILE starting!
-[ 22.12.2025 - 18:10:59 ]
-    (MSG) [2] SMILExtract: config file is: E:\Research Project (Prof. Preeti Rao)\opensmile-3.0-win-x64\myconfig\pitch.conf
-[ 22.12.2025 - 18:10:59 ]
+[ 29.12.2025 - 11:55:32 ]
+    (MSG) [2] SMILExtract: config file is: E:\Research Project (Prof. Preeti Rao)\opensmile-3.0-win-x64\myconfig\spec_pitch.conf
+[ 29.12.2025 - 11:55:32 ]
     (MSG) [2] cComponentManager: successfully registered 103 component types.
-[ 22.12.2025 - 18:10:59 ]
+[ 29.12.2025 - 11:55:33 ]
     (WRN) [2] instance 'specScale': FFT magnitude field '*Mag*' not found, defaulting to use full input vector!
-[ 22.12.2025 - 18:10:59 ]
+[ 29.12.2025 - 11:55:33 ]
     (WRN) [2] instance 'specScale': The data type of the input field is not of type DATATYPE_SPECTRUM_BINS_* , spectral power/magnitude bins are required as input to this component! Please check your config!
+[ 29.12.2025 - 11:55:33 ]
+    (ERR) [1] instance 'pitchDirection': no input field 'F0finalEnv' found, this is required! Use a pitch component as input and check the name, see the 'F0envFieldname' option.
+[ 29.12.2025 - 11:55:33 ]
+    (ERR) [1] instance 'pitchDirection': no input field 'RMSenergy' or 'loudness' found, one of these is required! Use an energy or intensity component as second input.
 ==> LEVEL 'wave'  +++  Buffersize(frames) = 8001  +++  nReaders = 1
-==> LEVEL 'frames'  +++  Buffersize(frames) = 3  +++  nReaders = 1
+==> LEVEL 'frame'  +++  Buffersize(frames) = 3  +++  nReaders = 1
 ==> LEVEL 'win'  +++  Buffersize(frames) = 3  +++  nReaders = 2
-==> LEVEL 'energy'  +++  Buffersize(frames) = 3  +++  nReaders = 1
 ==> LEVEL 'fft'  +++  Buffersize(frames) = 3  +++  nReaders = 1
-==> LEVEL 'spec'  +++  Buffersize(frames) = 3  +++  nReaders = 1
+==> LEVEL 'spec'  +++  Buffersize(frames) = 3  +++  nReaders = 2
+==> LEVEL 'f0'  +++  Buffersize(frames) = 3  +++  nReaders = 1
+==> LEVEL 'fin'  +++  Buffersize(frames) = 3  +++  nReaders = 1
 ==> LEVEL 'pitch'  +++  Buffersize(frames) = 3  +++  nReaders = 1
-[ 22.12.2025 - 18:10:59 ]
-    (MSG) [2] cComponentManager: successfully finished createInstances (8 component instances were finalised, 1 data memories were finalised)
-[ 22.12.2025 - 18:10:59 ]
+==> LEVEL 'spect'  +++  Buffersize(frames) = 3  +++  nReaders = 1
+==> LEVEL 'energy'  +++  Buffersize(frames) = 3  +++  nReaders = 1
+[ 29.12.2025 - 11:55:33 ]
+    (MSG) [2] cComponentManager: successfully finished createInstances (11 component instances were finalised, 1 data memories were finalised)
+[ 29.12.2025 - 11:55:33 ]
     (MSG) [2] cComponentManager: starting single thread processing loop
-[ 22.12.2025 - 18:10:59 ]
+[ 29.12.2025 - 11:55:33 ]
     (MSG) [2] cComponentManager: Processing finished! System ran for 1501 ticks.
